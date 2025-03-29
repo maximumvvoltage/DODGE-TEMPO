@@ -1,10 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private Animator anim;
+    public Animator anim;
+    private float health = 100f;
+
+    //singleton
+    public static Player Instance { get; private set; }
+
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
