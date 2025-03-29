@@ -34,11 +34,6 @@ public class Conductor : MonoBehaviour
     //indicator object to instantiate
     public GameObject indicator;
 
-    // COMBO
-
-    public bool Hit;
-    //public bool
-
     private void Start()
     {
         song = songData.song;
