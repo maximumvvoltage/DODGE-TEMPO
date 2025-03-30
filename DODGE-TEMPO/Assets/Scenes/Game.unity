@@ -404,6 +404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 520698726}
+  - component: {fileID: 520698727}
   m_Layer: 0
   m_Name: ComboText
   m_TagString: Untagged
@@ -424,10 +425,31 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 752792411}
   - {fileID: 1185900162}
+  - {fileID: 752792411}
   m_Father: {fileID: 1701731667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &520698727
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520698725}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8bf5beb1a3b693b4897302737629348a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &706005234
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +493,7 @@ GameObject:
   - component: {fileID: 752792411}
   - component: {fileID: 752792413}
   - component: {fileID: 752792412}
+  - component: {fileID: 752792414}
   m_Layer: 5
   m_Name: COMBO
   m_TagString: Untagged
@@ -494,7 +517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -352.8174, y: -493.5368}
+  m_AnchoredPosition: {x: -421, y: -489}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &752792412
@@ -535,6 +558,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752792410}
   m_CullTransparentMesh: 1
+--- !u!95 &752792414
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752792410}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7aa8db5aae8ef634887026a0aaf16fb3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &822322271
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,7 +811,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 540.38275, y: -535.33673}
+  m_AnchoredPosition: {x: 471.96716, y: -546}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1185900163
@@ -1218,7 +1262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d96202321b4fbc044a885ecc71f6595e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  songData: {fileID: 11400000, guid: 8d44515a029a0554c8a428e832274816, type: 2}
+  songData: {fileID: 11400000, guid: 11f515b48c787de4194bf3344c7cad0c, type: 2}
   dspSongTime: 0
   upSpawn: {x: 0, y: 9.5, z: 0}
   leftSpawn: {x: -3.5, y: 8, z: 0}
